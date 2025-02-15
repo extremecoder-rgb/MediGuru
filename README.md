@@ -1,7 +1,5 @@
 # MediGuru: AI-Powered Chatbot
 
-![MediGuru Banner](https://imgur.com/a/sDuIMxc)
-
 MediGuru is an AI-powered chatbot designed to provide intelligent and context-aware interactions using Retrieval-Augmented Generation (RAG). It leverages a cutting-edge tech stack to ensure fast, accurate, and reliable responses.
 
 ## 🚀 Features
@@ -77,16 +75,6 @@ The app will be available at `http://localhost:3000`
 - **Start a New Conversation** or continue from recent chats.
 - **Upload Documents** to improve AI responses.
 - **Interact with AI** using natural language queries.
-
-## 🎨 UI Preview
-![MediGuru UI](https://imgur.com/6q0fm1E)
-![MediGuru UI](https://imgur.com/TaG8MBn)
-![MediGuru UI](https://imgur.com/CKSFZLS)
-![MediGuru UI](https://imgur.com/YOpyrZz)
-![MediGuru UI](https://imgur.com/NaPiP3V)
-![MediGuru UI](https://imgur.com/ZpWQBd7)
-![MediGuru UI](https://imgur.com/BDxLOb6)
-
 
 ## 📜 License
 This project is open-source and available under the MIT License.
