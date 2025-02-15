@@ -83,7 +83,7 @@ This project is open-source and available under the MIT License.
 We welcome contributions! Feel free to open issues or submit pull requests.
 
 ## 📬 Contact
-For queries, reach out at [your-email@example.com](mailto:hsuswiowkskow@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/subhranil-mondal-537433318/).
+For queries, reach out at [Email](mailto:hsuswiowkskow@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/subhranil-mondal-537433318/).
 
 ---
 ⭐ Star this repo if you find it useful!
