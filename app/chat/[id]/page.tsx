@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { Button } from "@/components/ui/button";

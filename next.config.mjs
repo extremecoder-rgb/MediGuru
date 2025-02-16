@@ -1,4 +1,9 @@
-export default {
-    serverExternalPackages: ["some-package"], // ✅ Correct
+const nextConfig = {
+    experimental: {
+      appDir: true,
+    },
+    output: "standalone", // ✅ Enables caching
   };
+  
+  export default nextConfig;
   
