@@ -11,8 +11,19 @@ MediGuru is an AI-powered chatbot designed to provide intelligent and context-aw
 - **Modern & Responsive UI**: Built with Next.js, Tailwind CSS, and Shadcn UI.
 - **Secure Authentication**: Integrated with Clerk for seamless user authentication.
 - **Chat History Management**: Users can revisit and continue past conversations.
-- **Muliti-Lingual support: User can interact with our AI agent in any language.
-- **Medication Reminder: users can have a reminder feature if he/she forgets to take medicines in time.
+- Muliti-Lingual support: User can interact with our AI agent in any language.
+- Medication Reminder: users can have a reminder feature if he/she forgets to take medicines in time.
+# 🌟 MediGuru – AI-Powered Prescription Analysis 🚀  
+
+## *🎯 Mission & Vision*  
+
+### *🌍 Mission*  
+To empower individuals with *accurate, AI-driven prescription insights*, ensuring safer medication use and reducing dependency on healthcare professionals for basic queries.  
+
+### *🔮 Vision*  
+To become the go-to AI assistant for *prescription interpretation, bridging the gap between **patients and medical professionals* through cutting-edge AI solutions.  
+
+---
 
 ## 🛠 Tech Stack
 
