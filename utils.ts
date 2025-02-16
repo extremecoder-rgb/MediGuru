@@ -14,15 +14,22 @@ export async function queryPineconeVectorStore(
             inputs: query,
         });
 
-        const queryEmbedding = Array.from(apiOutput);
+        // Ensure the output is an array of numbers
+        const queryEmbedding: number[] = Array.isArray(apiOutput) 
+            ? apiOutput.flat() as number[] 
+            : [];
+
+        if (queryEmbedding.length === 0) {
+            throw new Error("Feature extraction failed: Empty embedding received.");
+        }
+
         const index = client.index(indexName);
 
-        // Simplified query format
+        // Pinecone query (removed namespace)
         const queryResponse = await index.query({
             vector: queryEmbedding,
             topK: 5,
-            includeMetadata: true,
-            namespace: "ns1"
+            includeMetadata: true
         });
 
         if (!queryResponse.matches?.length) {
@@ -30,7 +37,7 @@ export async function queryPineconeVectorStore(
         }
 
         const concatenatedRetrievals = queryResponse.matches
-            .filter(match => match.metadata?.chunk)
+            .filter(match => typeof match.metadata?.chunk === "string") // Ensure chunk is a string
             .map((match, index) => {
                 const score = match.score ? Math.round(match.score * 100) : 0;
                 return `\nClinical Finding ${index + 1} (${score}% match):\n${match.metadata?.chunk}`;
