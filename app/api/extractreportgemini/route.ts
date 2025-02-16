@@ -22,7 +22,7 @@ async function tryGeminiModel(modelName: string, base64Data: string, mimeType: s
             role: 'user', 
             parts: [
                 { text: prompt }, 
-                { inline_data: { mime_type: mimeType, data: base64Data } }
+                { inlineData: { mimeType: mimeType, data: base64Data } }
             ] 
         }],
     });
@@ -30,7 +30,8 @@ async function tryGeminiModel(modelName: string, base64Data: string, mimeType: s
 }
 
 async function tryHuggingFace(base64Data: string): Promise<string> {
-    const imageData = Buffer.from(base64Data, 'base64');
+    const imageData = new Uint8Array(Buffer.from(base64Data, 'base64')).buffer;
+
     const result = await hf.imageToText({
         model: MODELS.HF_VISION,
         data: imageData
