@@ -24,6 +24,36 @@ To empower individuals with *accurate, AI-driven prescription insights*, ensurin
 To become the go-to AI assistant for *prescription interpretation, bridging the gap between **patients and medical professionals* through cutting-edge AI solutions.  
 
 ---
+Here’s a **SWOT analysis** for your AI-powered chatbot project:  
+
+---
+
+## **SWOT Analysis: AI-Powered Chatbot (MediGuru)**  
+
+### ✅ **Strengths**  
+- **Context-Aware AI** – Uses RAG to remember past conversations and provide relevant responses.  
+- **Efficient Search** – Pinecone enhances response accuracy with fast vector-based retrieval.  
+- **Modern & Scalable Tech Stack** – Built with Next.js, Langchain, and Transformers.js for flexibility.  
+- **User-Friendly Interface** – Tailwind CSS & Shadcn UI ensure a sleek, responsive UI.  
+- **Secure Authentication** – Clerk provides robust user authentication.  
+
+### ⚠️ **Weaknesses**  
+- **Dependency on APIs** – Reliance on Pinecone, Clerk, and external AI models increases costs & potential downtimes.  
+- **High Resource Consumption** – LLM-based applications can be expensive in production.  
+- **Limited Domain-Specific Knowledge** – Requires fine-tuning or additional training for specialized industries.  
+
+### 🔥 **Opportunities**  
+- **Integration with Healthcare & Enterprise** – Can be expanded into healthcare (MediGuru) or customer support industries.  
+- **Personalization Features** – AI can be customized to user preferences for a better experience.  
+- **Monetization** – SaaS model, API-based subscriptions, or enterprise solutions.  
+- **Multimodal Capabilities** – Adding voice input or image analysis can make it more powerful.  
+
+### ⚠️ **Threats**  
+- **Competition** – Many AI chatbots exist (ChatGPT, Bard, etc.), making differentiation challenging.  
+- **Data Privacy Concerns** – Handling sensitive medical/user data requires strict compliance with laws like GDPR & HIPAA.  
+- **Rapid Tech Changes** – AI models and frameworks evolve quickly, requiring constant updates.  
+
+---
 
 ## 🛠 Tech Stack
 
