@@ -69,7 +69,7 @@ export async function POST(req: Request) {
             await sleep(2000); // Wait before trying next model
         }
 
-        // Try Gemini Vision if Pro fails
+        
         try {
             console.log("Attempting with Gemini Vision...");
             const text = await tryGeminiModel(MODELS.GEMINI_VISION, base64Data, mimeType);
